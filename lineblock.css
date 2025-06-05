@@ -1,0 +1,53 @@
+/* Задание 1: Определение типов элементов */
+h1, p, div {
+    border: 1px solid #333;
+    margin: 5px;
+    padding: 5px;
+}
+
+img.original-img {
+    border: 1px solid red;
+    width: 30vw;
+    height: 50vw;
+}
+
+/* Задание 2: Преобразование элементов */
+img.block-img {
+    display: block;
+    border: 1px solid blue;
+    margin: 5px;
+    width: 30vw;
+    height: 50vw;
+}
+
+p.inline-p {
+    display: inline;
+    border: 1px solid green;
+}
+
+/* Задание 3: Вложенные элементы */
+.nested-container {
+    display: block;
+    border: 2px solid purple;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.nested-container p,
+.nested-container img,
+.nested-container a {
+    display: block;
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px dashed gray;
+}
+
+.nested-container img {
+    width: 200px;
+    height: auto;
+}
+
+.nested-container a {
+    text-decoration: none;
+    color: darkblue;
+}
